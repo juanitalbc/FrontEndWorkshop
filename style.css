@@ -5,6 +5,21 @@ body {
   color: #222;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* makes it a circle */
+  object-fit: cover; /* prevents stretching */
+  border: 3px solid white;
+}
+
 .header {
   background-color: #1f3c88;
   color: white;
